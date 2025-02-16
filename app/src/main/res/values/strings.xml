@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PasswordApp</string>
+    <string name="enter_password">Enter password</string>
+    <string name="ok">OK</string>
+    <string name="show_password">Show password</string>
+    <string name="hide_password">Hide password</string>
+</resources>

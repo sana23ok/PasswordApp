@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Поле для введення паролю -->
+    <EditText
+        style="@style/CommonStyle"
+        android:id="@+id/editTextPassword"
+        android:layout_height="48dp"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Група радіо-кнопок для вибору режиму відображення -->
+    <RadioGroup
+        style="@style/CommonStyle"
+        android:id="@+id/radioGroup"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            style="@style/CommonStyle"
+            android:id="@+id/radioShow"
+            android:layout_height="48dp"
+            android:text="@string/show_password"/>
+
+        <RadioButton
+            style="@style/CommonStyle"
+            android:id="@+id/radioHide"
+            android:layout_height="48dp"
+            android:text="@string/hide_password"
+            android:checked="true"/>
+    </RadioGroup>
+
+    <!-- Кнопка ОК -->
+
+    <!-- Поле для виведення паролю -->
+    <Button
+        android:id="@+id/buttonOk"
+        style="@style/CommonStyle"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/ok" />
+
+    <TextView
+        style="@style/CommonStyle"
+        android:id="@+id/textViewOutput"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
