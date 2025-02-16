@@ -39,15 +39,14 @@
     </RadioGroup>
 
     <!-- Кнопка ОК -->
-
-    <!-- Поле для виведення паролю -->
     <Button
         android:id="@+id/buttonOk"
-        style="@style/CommonStyle"
+        style="@style/ButtonStyle"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/ok" />
 
+    <!-- Поле для виведення паролю -->
     <TextView
         style="@style/CommonStyle"
         android:id="@+id/textViewOutput"
